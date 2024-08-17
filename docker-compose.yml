@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: bookstore
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - postgres_adminer
+
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+    networks:
+      - postgres_adminer
+
+volumes:
+  db_data:
+
+networks:
+  postgres_adminer:
+    driver: bridge
