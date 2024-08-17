@@ -22,5 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     # application library
-    path('book/', include("library.urls", namespace="book")),
+    path('', include("library.urls", namespace="book")),
 ]
