@@ -6,10 +6,11 @@ from rest_framework.pagination import PageNumberPagination
 
 class BookPagination(PageNumberPagination):
     page_size = 10
+    page_size_query_param = 'page_size'
 
 
 class BookViewSet(viewsets.ModelViewSet):
-    queryset = Book.objects.all()
+    queryset = Book.objects.all().order_by('id')
     serializer_class = BookSerializer
     pagination_class = BookPagination
     filter_backends = [filters.SearchFilter]

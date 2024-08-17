@@ -1,0 +1,236 @@
+[
+    {
+        "model": "library.book",
+        "pk": 1,
+        "fields": {
+            "title": "Game of Thrones",
+            "author": "George R. R. Martin",
+            "published_date": "1996-08-01",
+            "isbn": "9780553103540",
+            "pages": 694,
+            "cover": "http://example.com/got.jpg",
+            "language": "en"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 2,
+        "fields": {
+            "title": "Metro 2033",
+            "author": "Dmitry Glukhovsky",
+            "published_date": "2005-03-01",
+            "isbn": "9780575086241",
+            "pages": 458,
+            "cover": "http://example.com/metro.jpg",
+            "language": "ru"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 3,
+        "fields": {
+            "title": "Metro 2034",
+            "author": "Dmitry Glukhovsky",
+            "published_date": "2009-06-01",
+            "isbn": "9780575086258",
+            "pages": 320,
+            "cover": "http://example.com/metro2034.jpg",
+            "language": "ru"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 4,
+        "fields": {
+            "title": "Metro 2035",
+            "author": "Dmitry Glukhovsky",
+            "published_date": "2015-06-01",
+            "isbn": "9780575086265",
+            "pages": 384,
+            "cover": "http://example.com/metro2035.jpg",
+            "language": "ru"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 5,
+        "fields": {
+            "title": "Witcher",
+            "author": "Andrzej Sapkowski",
+            "published_date": "1993-12-01",
+            "isbn": "9780575086272",
+            "pages": 320,
+            "cover": "http://example.com/witcher.jpg",
+            "language": "pl"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 6,
+        "fields": {
+            "title": "Кровь, пот и пиксели",
+            "author": "Jason Schreier",
+            "published_date": "2017-06-01",
+            "isbn": "9780575086289",
+            "pages": 304,
+            "cover": "http://example.com/blood.jpg",
+            "language": "ru"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 7,
+        "fields": {
+            "title": "The Art of Game Design",
+            "author": "Jesse Schell",
+            "published_date": "2008-08-01",
+            "isbn": "9780575086296",
+            "pages": 520,
+            "cover": "http://example.com/art.jpg",
+            "language": "en"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 8,
+        "fields": {
+            "title": "The Design of Everyday Things",
+            "author": "Don Norman",
+            "published_date": "1988-08-01",
+            "isbn": "9780575086302",
+            "pages": 240,
+            "cover": "http://example.com/design.jpg",
+            "language": "en"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 9,
+        "fields": {
+            "title": "The Lean Startup",
+            "author": "Eric Ries",
+            "published_date": "2011-09-01",
+            "isbn": "9780575086319",
+            "pages": 336,
+            "cover": "http://example.com/lean.jpg",
+            "language": "en"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 10,
+        "fields": {
+            "title": "The Pragmatic Programmer",
+            "author": "Andrew Hunt, David Thomas",
+            "published_date": "1999-10-01",
+            "isbn": "9780575086326",
+            "pages": 352,
+            "cover": "http://example.com/pragmatic.jpg",
+            "language": "en"
+        }
+    },
+      {
+        "model": "library.book",
+        "pk": 11,
+        "fields": {
+            "title": "The Fellowship of the Ring",
+            "author": "J.R.R. Tolkien",
+            "published_date": "1954-07-29",
+            "isbn": "9780618346257",
+            "pages": 423,
+            "cover": "http://example.com/fellowship.jpg",
+            "language": "en"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 12,
+        "fields": {
+            "title": "The Two Towers",
+            "author": "J.R.R. Tolkien",
+            "published_date": "1954-11-11",
+            "isbn": "9780618346264",
+            "pages": 352,
+            "cover": "http://example.com/towers.jpg",
+            "language": "en"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 13,
+        "fields": {
+            "title": "The Return of the King",
+            "author": "J.R.R. Tolkien",
+            "published_date": "1955-10-20",
+            "isbn": "9780618346271",
+            "pages": 416,
+            "cover": "http://example.com/return.jpg",
+            "language": "en"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 14,
+        "fields": {
+            "title": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "published_date": "1937-09-21",
+            "isbn": "9780618346288",
+            "pages": 310,
+            "cover": "http://example.com/hobbit.jpg",
+            "language": "en"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 15,
+        "fields": {
+            "title": "The Silmarillion",
+            "author": "J.R.R. Tolkien",
+            "published_date": "1977-09-15",
+            "isbn": "9780618346295",
+            "pages": 365,
+            "cover": "http://example.com/silmarillion.jpg",
+            "language": "en"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 16,
+        "fields": {
+            "title": "Українська книга",
+            "author": "Український автор",
+            "published_date": "2022-01-01",
+            "isbn": "9780618346301",
+            "pages": 200,
+            "cover": "http://example.com/ukrainian.jpg",
+            "language": "uk"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 17,
+        "fields": {
+            "title": "Українська книга 2",
+            "author": "Український автор",
+            "published_date": "2022-01-01",
+            "isbn": "9780618346318",
+            "pages": 200,
+            "cover": "http://example.com/ukrainian2.jpg",
+            "language": "uk"
+        }
+    },
+    {
+      "model": "library.book",
+      "pk": 18,
+      "fields": {
+          "title": "Тигролови",
+          "author": "Іван Багряний",
+          "published_date": "1957-01-01",
+          "isbn": "9780618346332",
+          "pages": 384,
+          "cover": "http://example.com/tigrolovi.jpg",
+          "language": "uk"
+      }
+  },
+]
