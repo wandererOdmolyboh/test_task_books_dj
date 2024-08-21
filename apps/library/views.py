@@ -1,7 +1,8 @@
 from rest_framework import viewsets, filters
+from rest_framework.pagination import PageNumberPagination
+
 from .models import Book
 from .serializers import BookSerializer
-from rest_framework.pagination import PageNumberPagination
 
 
 class BookPagination(PageNumberPagination):

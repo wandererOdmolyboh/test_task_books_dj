@@ -46,6 +46,7 @@ INSTALLED_APPS = [
 
     # application
     'apps.library',
+    'apps.kafka_app',
 ]
 
 MIDDLEWARE = [
