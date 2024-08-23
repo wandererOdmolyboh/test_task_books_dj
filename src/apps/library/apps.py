@@ -1,6 +1,9 @@
 from django.apps import AppConfig
 
 
-class KafkaAppConfig(AppConfig):
+class LibraryConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apps.kafka_app'
+    name = 'apps.library'
+
+    def ready(self):
+        pass

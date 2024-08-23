@@ -19,7 +19,7 @@ from django.contrib import admin
 from drf_yasg.views import get_schema_view
 from django.urls import path, include, re_path
 
-from config.views import root_view
+from .views import root_view
 
 schema_view = get_schema_view(
    openapi.Info(

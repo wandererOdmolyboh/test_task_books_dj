@@ -1,12 +1,12 @@
 FROM python:3.12
 
 ENV PYTHONUNBUFFERED 1
-RUN mkdir /test_task_books_dj
+RUN mkdir /test_task_books_dj/src
 
-ENV PYTHONPATH=/test_task_books_dj
+ENV PYTHONPATH=/test_task_books_dj/src
 
 
-WORKDIR /test_task_books_dj
+WORKDIR /test_task_books_dj/src
 
 COPY requirements.txt .
 

@@ -1,7 +1,7 @@
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 from .models import Book
-from apps.kafka_app.kafka_producer import send_message
+from src.services.kafka.kafka_producer import send_message
 
 
 @receiver(post_save, sender=Book)

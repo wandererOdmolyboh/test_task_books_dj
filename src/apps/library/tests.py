@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from apps.library.models import Book
+from src.apps.library.models import Book
 
 
 class BookModelTest(TestCase):
