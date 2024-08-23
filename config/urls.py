@@ -19,6 +19,8 @@ from django.contrib import admin
 from drf_yasg.views import get_schema_view
 from django.urls import path, include, re_path
 
+from config.views import root_view
+
 schema_view = get_schema_view(
    openapi.Info(
       title="Library API",
@@ -35,7 +37,10 @@ urlpatterns = [
     re_path(r'^docs/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 
+    # base
+    path('', root_view, name='root'),
+
     # application library
     path('', include("apps.library.urls", namespace="book")),
-    path('', include("apps.accounts.urls")),
+    path('', include("apps.accounts.urls", namespace="account")),
 ]
