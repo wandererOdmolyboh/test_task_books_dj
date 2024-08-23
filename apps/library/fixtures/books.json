@@ -9,7 +9,8 @@
             "isbn": "9780553103540",
             "pages": 694,
             "cover": "http://example.com/got.jpg",
-            "language": "en"
+            "language": "en",
+            "owner": 1
         }
     },
     {
@@ -22,7 +23,8 @@
             "isbn": "9780575086241",
             "pages": 458,
             "cover": "http://example.com/metro.jpg",
-            "language": "ru"
+            "language": "ru",
+            "owner": 1
         }
     },
     {
@@ -35,7 +37,8 @@
             "isbn": "9780575086258",
             "pages": 320,
             "cover": "http://example.com/metro2034.jpg",
-            "language": "ru"
+            "language": "ru",
+            "owner": 1
         }
     },
     {
@@ -48,7 +51,8 @@
             "isbn": "9780575086265",
             "pages": 384,
             "cover": "http://example.com/metro2035.jpg",
-            "language": "ru"
+            "language": "ru",
+            "owner": 1
         }
     },
     {
@@ -61,7 +65,8 @@
             "isbn": "9780575086272",
             "pages": 320,
             "cover": "http://example.com/witcher.jpg",
-            "language": "pl"
+            "language": "pl",
+            "owner": 1
         }
     },
     {
@@ -74,7 +79,8 @@
             "isbn": "9780575086289",
             "pages": 304,
             "cover": "http://example.com/blood.jpg",
-            "language": "ru"
+            "language": "ru",
+            "owner": 1
         }
     },
     {
@@ -87,7 +93,8 @@
             "isbn": "9780575086296",
             "pages": 520,
             "cover": "http://example.com/art.jpg",
-            "language": "en"
+            "language": "en",
+            "owner": 1
         }
     },
     {
@@ -100,7 +107,8 @@
             "isbn": "9780575086302",
             "pages": 240,
             "cover": "http://example.com/design.jpg",
-            "language": "en"
+            "language": "en",
+            "owner": 1
         }
     },
     {
@@ -113,7 +121,8 @@
             "isbn": "9780575086319",
             "pages": 336,
             "cover": "http://example.com/lean.jpg",
-            "language": "en"
+            "language": "en",
+            "owner": 1
         }
     },
     {
@@ -126,7 +135,8 @@
             "isbn": "9780575086326",
             "pages": 352,
             "cover": "http://example.com/pragmatic.jpg",
-            "language": "en"
+            "language": "en",
+            "owner": 1
         }
     },
       {
@@ -139,7 +149,8 @@
             "isbn": "9780618346257",
             "pages": 423,
             "cover": "http://example.com/fellowship.jpg",
-            "language": "en"
+            "language": "en",
+            "owner": 1
         }
     },
     {
@@ -152,7 +163,8 @@
             "isbn": "9780618346264",
             "pages": 352,
             "cover": "http://example.com/towers.jpg",
-            "language": "en"
+            "language": "en",
+            "owner": 1
         }
     },
     {
@@ -165,7 +177,8 @@
             "isbn": "9780618346271",
             "pages": 416,
             "cover": "http://example.com/return.jpg",
-            "language": "en"
+            "language": "en",
+            "owner": 1
         }
     },
     {
@@ -178,7 +191,8 @@
             "isbn": "9780618346288",
             "pages": 310,
             "cover": "http://example.com/hobbit.jpg",
-            "language": "en"
+            "language": "en",
+            "owner": 1
         }
     },
     {
@@ -191,7 +205,8 @@
             "isbn": "9780618346295",
             "pages": 365,
             "cover": "http://example.com/silmarillion.jpg",
-            "language": "en"
+            "language": "en",
+            "owner": 1
         }
     },
     {
@@ -204,7 +219,8 @@
             "isbn": "9780618346301",
             "pages": 200,
             "cover": "http://example.com/ukrainian.jpg",
-            "language": "uk"
+            "language": "uk",
+            "owner": 1
         }
     },
     {
@@ -217,7 +233,8 @@
             "isbn": "9780618346318",
             "pages": 200,
             "cover": "http://example.com/ukrainian2.jpg",
-            "language": "uk"
+            "language": "uk",
+            "owner": 1
         }
     },
     {
@@ -230,7 +247,8 @@
           "isbn": "9780618346332",
           "pages": 384,
           "cover": "http://example.com/tigrolovi.jpg",
-          "language": "uk"
+          "language": "uk",
+          "owner": 1
       }
   }
 ]
