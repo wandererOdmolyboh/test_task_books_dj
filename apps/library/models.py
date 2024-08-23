@@ -1,4 +1,5 @@
 from django.db import models
+from rest_framework.authtoken.admin import User
 
 
 class Book(models.Model):
@@ -22,3 +23,5 @@ class Book(models.Model):
     pages = models.IntegerField(null=True, blank=True)
     cover = models.URLField(null=True, blank=True)
     language = models.CharField(max_length=2)
+    owner = models.ForeignKey(User, on_delete=models.CASCADE,
+                              default=1, related_name='books')

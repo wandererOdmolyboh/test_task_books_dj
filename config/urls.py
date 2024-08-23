@@ -37,4 +37,5 @@ urlpatterns = [
 
     # application library
     path('', include("apps.library.urls", namespace="book")),
+    path('', include("apps.accounts.urls")),
 ]
