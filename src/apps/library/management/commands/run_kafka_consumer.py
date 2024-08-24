@@ -1,5 +1,6 @@
 from django.core.management.base import BaseCommand
-from src.services.kafka.kafka_consumer import consume_messages
+
+from services.kafka.kafka_consumer import consume_messages
 
 
 class Command(BaseCommand):

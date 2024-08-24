@@ -6,4 +6,4 @@ class LibraryConfig(AppConfig):
     name = 'apps.library'
 
     def ready(self):
-        pass
+        from .signals import book_post_save

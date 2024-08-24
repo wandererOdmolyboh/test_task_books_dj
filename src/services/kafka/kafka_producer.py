@@ -16,5 +16,10 @@ def delivery_report(err, msg):
 
 
 def send_message(topic, message):
-    producer.produce(topic, message.encode('utf-8'), callback=delivery_report)
+
+    producer.poll(0)
+
+    producer.produce(topic, message, callback=delivery_report)
+
+    # Wait for any outstanding messages to be delivered and delivery reports to be triggered
     producer.flush()

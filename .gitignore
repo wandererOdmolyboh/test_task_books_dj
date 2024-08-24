@@ -1,1 +1,12 @@
 .env
+/.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.idea/
+*.log
+db.sqlite3
+venv/
+/temp/
